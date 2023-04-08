@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('background.jpg');
+        }
+
+        label {
+            color: white;
+        }
+
+        .container {
+            border: 2px solid white;
+            width: auto;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 3px white;
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: small;
+        }
+
+        button,input {
+            display: block;
+            width: 370px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: rgb(38, 171, 140);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="back">
+                <center><img src="https://d3fp5tyfm1gdbn.cloudfront.net/2022/Feb/23/1645607393_user4.png"
+                        alt="login logo" width="40px"></center>
+            </div>
+            <div class="login">
+                <label>Username</label><br>
+                <input type="text" placeholder="Enter Username" style="padding-left: 10px;"><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter Password" style="padding-left: 10px;"><br>
+                <button type="submit">Login</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
